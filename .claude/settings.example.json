@@ -1,0 +1,32 @@
+{
+  "_comment": "Copy this to .claude/settings.json to configure Claude Code permissions and hooks for this project.",
+  "permissions": {
+    "allow": [
+      "Bash(npm install*)",
+      "Bash(npm test*)",
+      "Bash(npm run *)",
+      "Bash(npx playwright*)",
+      "Bash(npx tsc*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(bash .claude/hooks/*.sh)"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash(npm test*|npm run test*|npx playwright test*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/pre-test.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

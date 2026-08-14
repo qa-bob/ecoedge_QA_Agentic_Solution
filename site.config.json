@@ -1,23 +1,29 @@
-﻿{
-    "name":  "Eco-Edge",
-    "url":  "http://www.ecoedgeco.com",
-    "description":  "",
-    "industry":  "",
-    "hasContactForm":  true,
-    "expectedNavItems":  [
-
-                         ],
-    "viewports":  [
-                      "desktop",
-                      "mobile",
-                      "tablet"
-                  ],
-    "skipVisual":  false,
-    "skipForms":  false,
-    "auth":  {
-                 "required":  false,
-                 "loginUrl":  "",
-                 "username":  "",
-                 "password":  ""
-             }
+{
+    "name": "Eco-Edge",
+    "url": "http://www.ecoedgeco.com",
+    "description": "Software solutions for transportation and mining industries",
+    "industry": "Transportation & Mining Software",
+    "hasContactForm": true,
+    "expectedNavItems": [
+        "home",
+        "about us",
+        "services",
+        "products",
+        "projects",
+        "news room",
+        "contact us"
+    ],
+    "viewports": [
+        "desktop",
+        "mobile",
+        "tablet"
+    ],
+    "skipVisual": false,
+    "skipForms": false,
+    "auth": {
+        "required": false,
+        "loginUrl": "",
+        "username": "",
+        "password": ""
+    }
 }

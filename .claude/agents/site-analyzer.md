@@ -1,3 +1,9 @@
+---
+name: site-analyzer
+description: Crawl a live website and produce a fully-populated site.config.json with discovered nav items, forms, and feature flags. Invoke when analyzing site structure or onboarding a new site.
+model: claude-sonnet-4-6
+---
+
 # Agent: site-analyzer
 
 ## Role

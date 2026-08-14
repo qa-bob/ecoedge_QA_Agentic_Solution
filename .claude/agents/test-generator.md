@@ -1,3 +1,9 @@
+---
+name: test-generator
+description: Read a populated site.config.json and generate site-specific Playwright TypeScript test files for features not covered by the shared suites. Output goes to tests/custom/.
+model: claude-sonnet-4-6
+---
+
 # Agent: test-generator
 
 ## Role
